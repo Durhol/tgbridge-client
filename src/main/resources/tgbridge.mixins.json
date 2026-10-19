@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.vanutp.tgbridge.fabric.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "ChatScreenMixin",
+    "ChatComponentMixin",
+    "ChatComponentAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
