@@ -3,6 +3,7 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 plugins {
     id("dev.architectury.loom") version "1.13-SNAPSHOT"
     id("org.jetbrains.kotlin.jvm") version "2.2.21"
+    id("org.jetbrains.kotlin.plugin.serialization") version "2.2.21"
 }
 
 val minecraftVersion: String by project
